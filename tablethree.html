@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        table {
+            height: 100vh;
+            width: vw;
+            background-color:red;
+        }
+
+        .mainvideo {
+            background-color:pink;
+            width: 50vw;
+            height: 50vh;
+        }
+
+        .rowone {
+            background-color: blueviolet;
+            width: 50vw;
+            height: 50vh;
+        }
+
+        .rowtwo {
+            background-color: black;
+            width: 50vw;
+            height: 50vh;
+        }
+    </style>
+</head>
+
+<body style="margin: 0;">
+    <table>
+        <!-- row-one-->
+        <tr>
+            <!-- column one -->
+            <td class="row-one"></td>
+            <!-- column two -->
+            <td class="row-two" rowspan="2" style="background-color:orange;"></td>
+            <!-- column three -->
+            <td class="row-one"></td>
+        </tr>
+            <!-- row two -->
+        <tr>
+            <!-- column one -->
+            <td class="row-two"></td>
+            <!-- column three -->
+            <td class=" row-two" style="background-color:green;"></td>
+
+        </tr>
+        <!-- row three -->
+        <tr>
+            <!-- column one -->
+            <td class="row-one"></td>
+            <td class="row-two" style="background-color:blue;"></td>
+            <!-- column two -->
+            <td class="row-one" style="background-color: violet;"></td>
+            <!-- column three -->
+            <td class="row-one" style="background-color: springgreen;"></td>
+        </tr>
+    </table>
+
+</body>
+
+</html>

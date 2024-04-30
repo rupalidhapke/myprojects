@@ -1,21 +1,138 @@
-<!Doctype html>
+<!DOCTYPE html>
 <html>
 
 <head>
-    <title>HOME</title>
+    <style>
+        .row-one {
+            background-color:#EF9595;
+            width: 10vw;
+            height:10vh;
+            border-style: solid;
+        }
+
+        .row-two {
+            background-color:#EFB495;
+            width: 30vw;
+            height: 60vh;
+        }
+
+        .row-three {
+            height: 60vh;
+            width: 100vw;
+            background-color:#EFD595;
+            font-size: 30px;
+            text-align: center;
+        }
+
+        .row-four {
+            height: 60vh;
+            width: 100vw;
+            background-color:#EBEF95;
+            font-size: 30px;
+            text-align: center;
+        }
+
+        .row-five {
+            height: 60vh;
+            width: 100vw;
+            background-color: black;
+            font-size: 30px;
+            text-align: center;
+        }
+
+        .row-six {
+            height: 60vh;
+            width: 100vw;
+            background-color: orange;
+            font-size: 30px;
+            text-align: center;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+        .navigation {
+            height: 10vh;
+            width: 200vw;
+            background-color:#C38154;
+        }
+        .img {
+            border-radius: 50%;
+            float: left;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-left: 20px;
+        }
+        h1{
+            text-align: center;
+        }
+        h2{
+            text-align: center;
+        }
+        
+    </style>
 </head>
 
+<body style="margin: 0;">
+    <table>
+        <!-- row one -->
+        <tr class="row-one">
+            <td class="column-one"><a href="#section-one">ABOUT</a></td>
+            <td class="column-two"><a href="#section-two">PROJECTS</a></td>
+            <td class="column-three"><a href="#section-three">EDUCATION</a></td>
+            <td class="column-four"><a href="#section-four">LINKS</a></td>
+        </tr>
+        <tr>
+        <tr id="section-one" class="box"></tr>
+        <td class="row-two" colspan="4">
+        <img class="img" src="image/rupali.JPEG" height="300px" width="200px">
+    <h1>
+        My Self Rupali Dhapke
+</h1>
+<h2>
+<p> 
+    <li>I am 23 years old </li> 
+    <li>I live in Khapa. (Katol) </li>       
+    <li>I am student of Fullstack Developer in Enjoy Programing (Katol)</li>            
+    <li>Languages know Hindi,English,Marathi</li>
+</p>
+</h2>
+</td>
+        </tr>
+        <tr id="section-two">
+            <td class="row-three" colspan="4">
+            <div class="heading">
+              <h1>My Projects</h1>
+             <div>
+                <a href="css.html">My First Project</a><br>
+                <a href="flex.html"> My Second Project</a><br>
+                <a href="lagan.html">My Third Project</a><br>
+                <a href="scrollingpage.html">My Fourth Project</a><br>
+             </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="row-four" colspan="4">
+                <div class="Education">
+                    <h1>My Education</h1>
+                    <p>
+                        I complete my 12th from A.D.Collage , Bharsingi<br>
+                        I am lerning Fullstack Developer course at Enjoy Programing Katol
+                    </p>
+            </td>
+        </tr>
+        <tr id="section-three">
+        <tr>
+            <tr id="section-four"></tr>
+            <td class="navigation"> SKYPE ID:live:.cid.abbbe808c8ed63ab</td>
+            <td class="navigation">EMAIL:rupalidhapke1234@gmail.com</td>
+            <td class="navigation">GITHUB LINK:https://github.com/rupalidhapke/rupalifullstackdeveloper</td>
+            <td class="navigation">STACK OVERFLOW</td>
 
-<body>
-    <h1>MY PROJECTS</h1>
-
-    <hr />
-    <hr />
-    <br />
-    <br />
-    <a
-        href="https://mr.wikipedia.org/wiki/%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%B0%E0%A4%BE%E0%A4%B7%E0%A5%8D%E0%A4%9F%E0%A5%8D%E0%A4%B0_%E0%A4%AA%E0%A5%8B%E0%A4%B2%E0%A5%80%E0%A4%B8">TOP
-        INSPIRING PERSONALLITES </a>
+        </tr>
+    </table>
 </body>
 
 </html>
